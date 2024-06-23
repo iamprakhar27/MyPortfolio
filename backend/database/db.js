@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const dburl = "mongodb+srv://PrakharGupta:prakhargupta@cluster0.7zru9na.mongodb.net/portfolio_db"
+const dburl = "mongodb+srv://---------:-------@cluster0.7zru9na.mongodb.net/-------"
 
 const connectdb = async () =>{
     try
