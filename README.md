@@ -9,8 +9,6 @@ Welcome to my Portfolio project! This repository showcases a professional portfo
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Features
@@ -24,7 +22,7 @@ Welcome to my Portfolio project! This repository showcases a professional portfo
 
 ## Demo
 
-Check out the live demo of the portfolio [here](https://your-portfolio-demo-link.com).
+Check out the live demo of the portfolio [here](https://your-portfolio-demo-link.com / will be added sooner).
 
 ## Installation
 
