@@ -15,8 +15,8 @@ function MainPage() {
     return (
         <>
             {/* hero section starts here */}
-            <div className="relative h-screen w-full flex flex-col md:flex-row items-start justify-start bg-slate-900 p-8 bg-contain bg-right bg-no-repeat" style={{ backgroundImage: "url('/images/img1.jpg')" }}>
-                <div className="absolute inset-0 bg-black opacity-60"></div>
+            <div name="home" className="relative h-screen w-full flex flex-col md:flex-row items-start justify-start bg-slate-900 p-8 bg-contain bg-right bg-no-repeat" style={{ backgroundImage: "url('/images/img1.jpg')" }}>
+                <div className="absolute inset-0 bg-black opacity-50"></div>
                 <div className="relative container mx-auto mt-15 mb-4 md:mt-56 md:mb-0 z-10">
                     <div className="relative w-full max-w-4xl p-12 bg-white bg-opacity-5 shadow-lg rounded-lg" style={{ boxShadow: "0 5px 7px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.16), 0 0 11px rgba(66, 153, 225, 0.8)" }}>
                         <h1 className="text-4xl md:text-5xl font-bold text-blue-300">

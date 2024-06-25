@@ -2,7 +2,7 @@
 function Skills() {
   return (
     <>
-      <div className="relative min-h-screen w-full flex flex-col items-center justify-start bg-gray-800 p-8 bg-contain bg-right bg-no-repeat" style={{ backgroundImage: "url('/images/img4.jpg')" }}>
+      <div name="skills" className="relative min-h-screen w-full flex flex-col items-center justify-start bg-gray-800 p-8 bg-contain bg-right bg-no-repeat" style={{ backgroundImage: "url('/images/img4.jpg')" }}>
         <div className="absolute inset-0 bg-black opacity-80"></div>
         <div className="relative container mx-auto mt-5 z-10 text-left">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-500 underline decoration-2 underline-offset-8 pb-2">
