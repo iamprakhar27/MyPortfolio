@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 function Projects() {
     return (
         <>
-            <div name="projects" className="relative h-screen w-full flex flex-col md:flex-row items-start justify-start bg-gray-800 p-8 bg-contain bg-left bg-no-repeat" style={{ backgroundImage: "url('/images/img6.jpg')" }}>
+            <div name="projects" className="relative h-screen w-full flex flex-col md:flex-row items-start justify-start bg-gray-800 p-8 bg-contain bg-center bg-no-repeat" style={{ backgroundImage: "url('/images/img6.jpg')" }}>
                 <div className="absolute inset-0 bg-black opacity-80"></div>
                 <div className="relative container mx-auto mt-5 mb-4 md:mt-10 md:mb-0 z-10">
                     <h1 className="text-4xl md:text-5xl font-bold text-blue-500 underline decoration-2 underline-offset-8 pb-2">
@@ -17,7 +17,7 @@ function Projects() {
                             </NavLink>
                             <div className="p-5 relative z-20">
                                 <NavLink to="#">
-                                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Portfolio</h5>
+                                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white underline">Portfolio</h5>
                                 </NavLink>
                                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Passionate Full-Stack Developer specializing in the MERN stack, with a keen eye for creating seamless user experiences and a drive to continually learn and innovate.</p>
                                 <NavLink to="https://github.com/iamprakhar27/MyPortfolio/" className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 z-30">

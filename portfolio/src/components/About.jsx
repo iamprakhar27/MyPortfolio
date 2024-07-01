@@ -1,7 +1,7 @@
 function About() {
     return ( 
         <>
-        <div name='about' className="relative h-screen w-full flex flex-col md:flex-row items-start justify-start bg-gray-800 p-8 bg-contain bg-left bg-no-repeat" style={{ backgroundImage: "url('/images/img3.jpg')" }}>
+        <div name='about' className="relative h-screen w-full flex flex-col md:flex-row items-start justify-start bg-gray-800 p-8 bg-contain bg-center bg-no-repeat" style={{ backgroundImage: "url('/images/img3.jpg')" }}>
                 <div className="absolute inset-0 bg-black opacity-80"></div>
                 <div className="relative container mx-auto mt-15 mb-4 md:mt-56 md:mb-0 z-10">
                     <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
