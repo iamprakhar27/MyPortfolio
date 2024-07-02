@@ -8,7 +8,10 @@ function Skills() {
           <h1 className="text-4xl md:text-5xl font-bold text-blue-500 underline decoration-2 underline-offset-8 pb-2">
             Skills
           </h1>
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-white">
+          <span className="text-sm md:text-lg font-bold text-blue-200">
+            Here are some skills that i have gained which helped me in creating some projects.
+          </span>
+          <div className=" mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-white">
             <div className="bg-gray-900 bg-opacity-40 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-110" style={{ boxShadow: '0 4px 8px rgba(227, 76, 38, 0.6)' }}>
               <div className="text-3xl mb-4">
                 <img src="/images/html5.png" alt="HTML" className="mx-auto w-12 h-12" />
@@ -78,6 +81,27 @@ function Skills() {
               </div>
               <h3 className="text-2xl font-semibold">GitHub</h3>
               <p className="mt-2">Version control and collaboration using GitHub.</p>
+            </div>
+            <div className="bg-gray-900 bg-opacity-40 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-110" style={{ boxShadow: '0 4px 8px rgba(240, 80, 50, 0.6)' }}>
+              <div className="text-3xl mb-4">
+                <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git" className="mx-auto w-12 h-12" />
+              </div>
+              <h3 className="text-2xl font-semibold">Git</h3>
+              <p className="mt-2">Distributed version control system to track changes in source code.</p>
+            </div>
+            <div className="bg-gray-900 bg-opacity-40 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-110" style={{ boxShadow: '0 4px 8px rgba(66, 133, 244, 0.6)' }}>
+              <div className="text-3xl mb-4">
+                <img src="images/rest-api.png" alt="REST APIs" className="mx-auto w-25 h-25" />
+              </div>
+              <h3 className="text-2xl font-semibold">REST API's</h3>
+              <p className="mt-2">Architectural style for designing networked applications.</p>
+            </div>
+            <div className="bg-gray-900 bg-opacity-40 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-110" style={{ boxShadow: '0 4px 8px rgba(55, 118, 171, 0.6)' }}>
+              <div className="text-3xl mb-4">
+                <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" alt="Python" className="mx-auto w-30 h-12" />
+              </div>
+              <h3 className="text-2xl font-semibold">Python</h3>
+              <p className="mt-2">High-level programming language for general-purpose programming.</p>
             </div>
           </div>
 

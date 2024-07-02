@@ -7,7 +7,7 @@ function About() {
                     <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
                         <div className="col-span-12 md:col-span-6 text-right">
                             <h1 className="text-4xl md:text-5xl font-bold text-blue-500 underline decoration-2 underline-offset-8 pb-2">
-                                About
+                                About Me
                             </h1>
                             <span className="text-4xl md:text-5xl font-bold text-blue-200 mt-4 block ">
                                 Hi, I'm Prakhar Gupta Nice to meet you take a look around.
