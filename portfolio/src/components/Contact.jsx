@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 
 function Contact() {
-  const URL = "http://localhost:4000/addcontact";
+  const URL = `$(window.location.origin)/addcontact`;
   const [contact, setContact] = useState({ name: "", email: "", message: "" });
 
   const handleForm = async (e) => {
