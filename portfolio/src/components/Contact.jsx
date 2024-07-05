@@ -1,25 +1,11 @@
+import { FaLinkedin, FaGithub, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 import { useState } from "react";
-import axios from "axios";
+
+
 
 function Contact() {
-  const URL = `$(window.location.origin)/addcontact`;
-  const [contact, setContact] = useState({ name: "", email: "", message: "" });
-
-  const handleForm = async (e) => {
-    e.preventDefault();
-
-    try {
-      const response = await axios.post(URL, contact);
-      setContact({ name: "", email: "", message: "" });
-      console.log(response.data);
-    } catch (error) {
-      console.log("Error handling data: " + error);
-    }
-  };
-
-  const handleChange = (e) => {
-    setContact({ ...contact, [e.target.name]: e.target.value });
-  };
+  const [showCards, setShowCards] = useState(false);
 
   return (
     <div
@@ -32,70 +18,60 @@ function Contact() {
         <h1 className="text-4xl md:text-5xl font-bold text-blue-500 text-center underline decoration-2 underline-offset-8 pb-2">
           Connect With Me
         </h1>
-        <form
-          onSubmit={handleForm}
-          className="mt-12 space-y-6 max-w-lg mx-auto bg-white bg-opacity-10 p-8 rounded-lg shadow-lg"
-        >
-          <div>
-            <label
-              htmlFor="name"
-              className="block text-sm font-medium text-white font-semibold"
-            >
-              Name
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              value={contact.name}
-              onChange={handleChange}
-              required
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition-shadow duration-300 ease-in-out hover:scale-105 hover:shadow-custom-light-blue"
-            />
-          </div>
-          <div>
-            <label
-              htmlFor="email"
-              className="block text-sm font-medium text-white font-semibold"
-            >
-              Email
-            </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              value={contact.email}
-              onChange={handleChange}
-              required
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition-shadow duration-300 ease-in-out hover:scale-105 hover:shadow-custom-light-blue"
-            />
-          </div>
-          <div>
-            <label
-              htmlFor="message"
-              className="block text-sm font-medium text-white font-semibold"
-            >
-              Message
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              value={contact.message}
-              onChange={handleChange}
-              rows="4"
-              required
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition-shadow duration-300 ease-in-out hover:scale-105 hover:shadow-custom-light-blue"
-            ></textarea>
-          </div>
-          <div>
-            <button
-              type="submit"
-              className="w-full inline-flex justify-center py-2 px-4 border border-transparent text-sm font-semibold rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 shadow-custom-blue transform transition-transform hover:scale-105"
-            >
-              Connect
-            </button>
-          </div>
-        </form>
+
+        {showCards && (
+                    <div className="mt-8 flex flex-wrap justify-center space-x-4">
+                        <motion.a
+                            href="https://www.linkedin.com/in/prakhar-gupta-2a1349161?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-white p-4 rounded-lg shadow-lg text-blue-500"
+                            initial={{ opacity: 0, y: -20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.2 }}
+                            style={{ color: '#0077B5' }}
+                        >
+                            <FaLinkedin size={30} />
+                        </motion.a>
+                        <motion.a
+                            href="https://github.com/iamprakhar27"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-white p-4 rounded-lg shadow-lg text-blue-500"
+                            initial={{ opacity: 0, y: -20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.4 }}
+                            style={{ color: '#181717' }}
+                        >
+                            <FaGithub size={30} />
+                        </motion.a>
+                        <motion.a
+                            href="https://x.com/the21immortals?t=2MtfrBOxYMYaIZFOYy_iJg&s=09"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-white p-4 rounded-lg shadow-lg text-blue-500"
+                            initial={{ opacity: 0, y: -20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.6 }}
+                            style={{ color: '#1DA1F2' }}
+                        >
+                            <FaTwitter size={30} />
+                        </motion.a>
+                        <motion.a
+                            href="mailto:prakharofficial17@gmail.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="bg-white p-4 rounded-lg shadow-lg text-blue-500"
+                            initial={{ opacity: 0, y: -20 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.6 }}
+                            style={{ color: '#D44638' }} 
+                        >
+                            <FaEnvelope size={30} />
+                        </motion.a>
+                    </div>
+                )}
+        
       </div>
     </div>
   );
