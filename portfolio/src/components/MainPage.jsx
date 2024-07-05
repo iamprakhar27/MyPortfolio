@@ -3,11 +3,9 @@ import Skills from "./Skills"
 import Projects from "./Projects"
 import Contact from "./Contact";
 import { motion } from 'framer-motion';
-import { useState } from "react";
 
 function MainPage() {
    
-    const [showCards, setShowCards] = useState(false);
 
     return (
         <> 
@@ -50,17 +48,12 @@ function MainPage() {
                                 Download CV
                             </motion.button>
                         </a>
-                        <motion.button
-                            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
-                            whileHover={{ scale: 1.1 }}
-                            whileTap={{ scale: 0.9 }}
-                            onClick={() =>setShowCards(!showCards)}
-                        >
-                            Connect Now
-                        </motion.button>
+                        
                     </motion.div>
               
                 </motion.div>
+
+                
             </section>
             <About />
             <Skills />

@@ -14,7 +14,7 @@
   .hero-container {
     background:  url('../src/assets/img4.jpg') no-repeat center center;
     background-size: cover;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

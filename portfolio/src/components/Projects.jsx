@@ -20,7 +20,7 @@ function Projects() {
             {[
               {
                 title: "Portfolio",
-                techStack: "React.JS, Node.JS, Express.JS, MongoDB, Tailwind CSS",
+                techStack: "React.JS, Tailwind CSS, FramerMotion",
                 image: "/images/img7.jpg",
                 link: "https://github.com/iamprakhar27/MyPortfolio/",
                 color: "hover:shadow-custom-cyan",
