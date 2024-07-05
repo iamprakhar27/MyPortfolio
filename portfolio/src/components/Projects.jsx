@@ -23,33 +23,33 @@ function Projects() {
                 techStack: "React.JS, Node.JS, Express.JS, MongoDB, Tailwind CSS",
                 image: "/images/img7.jpg",
                 link: "https://github.com/iamprakhar27/MyPortfolio/",
-                color: "custom-cyan",
+                color: "hover:shadow-custom-cyan",
               },
               {
                 title: "Life Line Portal",
                 techStack: "React.JS, Node.JS, Express.JS, MongoDB, Bootstrap",
                 image: "/images/img8.jpeg",
                 link: "https://github.com/iamprakhar27/Life-Line-portal/",
-                color: "custom-emerald",
+                color: "hover:shadow-custom-emerald",
               },
               {
                 title: "MEME Generator",
                 techStack: "HTML, CSS, Javascript",
                 image: "/images/meme.png",
                 link: "https://github.com/iamprakhar27/meme-generator/",
-                color: "custom-fuchsia",
+                color: "hover:shadow-custom-fuchsia",
               },
               {
                 title: "TO-Do List",
                 techStack: "HTML, CSS, Javascript",
                 image: "/images/todo.png",
                 link: "https://github.com/iamprakhar27/todo-list",
-                color: "custom-rose",
+                color: "hover:shadow-custom-rose",
               },
             ].map((project, index) => (
               <div
                 key={index}
-                className={`group relative max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition-transform hover:scale-105 hover:shadow-${project.color}`}
+                className={`group relative max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition-transform hover:scale-105 ${project.color}`}
               >
                 <NavLink to="#">
                   <img className="rounded-t-lg" src={project.image} alt="" />
