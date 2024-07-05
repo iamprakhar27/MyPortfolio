@@ -23,33 +23,18 @@ function Contact() {
           >
             <FaLinkedin size={30} />
           </NavLink>
-          <NavLink
-            to="https://github.com/iamprakhar27"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white p-4 rounded-lg shadow-lg"
-            style={{ color: '#181717' }}
-          >
+          <NavLink to="https://github.com/iamprakhar27"  target="_blank" rel="noopener noreferrer"  className="bg-white p-4 rounded-lg shadow-lg" style={{ color: '#181717' }} >
             <FaGithub size={30} />
           </NavLink>
-          <NavLink
-            to="https://x.com/the21immortals?t=2MtfrBOxYMYaIZFOYy_iJg&s=09"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white p-4 rounded-lg shadow-lg"
-            style={{ color: '#1DA1F2' }}
-          >
+
+          <NavLink to="https://x.com/the21immortals?t=2MtfrBOxYMYaIZFOYy_iJg&s=09" target="_blank" rel="noopener noreferrer" className="bg-white p-4 rounded-lg shadow-lg" style={{ color: '#1DA1F2' }}>
             <FaTwitter size={30} />
           </NavLink>
-          <NavLink
-            to="mailto:prakharofficial17@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white p-4 rounded-lg shadow-lg"
-            style={{ color: '#D44638' }}
-          >
+
+          <NavLink to="mailto:prakharofficial17@gmail.com" target="_blank" rel="noopener noreferrer" className="bg-white p-4 rounded-lg shadow-lg" style={{ color: '#D44638' }}>
             <FaEnvelope size={30} />
           </NavLink>
+          
         </div>
       </div>
     </div>
