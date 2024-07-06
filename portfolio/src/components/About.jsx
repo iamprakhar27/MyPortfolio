@@ -19,8 +19,7 @@ function About() {
                             <span className="text-sm md:text-lg font-bold text-blue-200">
                                 As a dedicated and innovative MERN stack web developer, I specialize in creating dynamic, responsive, and user-friendly web applications. With a strong proficiency in MongoDB, Express.js, React, and Node.js, I bring ideas to life through seamless full-stack development.
                                 During my 5-month industrial training in MCA, I developed a project that significantly enhanced my web application skills. You can explore this project on my <NavLink to="https://github.com/iamprakhar27/Life-Line-portal/">Github</NavLink>
-                    
-
+With a background in Bachelor of Computer Applications (BCA), I possess strong skills in web application development, database management, software development, data structures, and computer networking. Additionally, I also have a keen interest in cybersecurity and ethical hacking, focusing on maintaining safety and security across the web.
                             </span>
                         </div>
                     </div> 

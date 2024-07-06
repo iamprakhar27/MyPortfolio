@@ -9,7 +9,8 @@ function Skills() {
             Skills
           </h1>
           <span className="text-sm md:text-lg font-bold text-blue-200">
-            Here are some skills that i have gained which helped me in creating some projects.
+            Here are some skills I have gained, which have helped me in creating various projects.
+
           </span>
           <div className=" mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-white">
             <div className="bg-gray-900 bg-opacity-40 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-110" style={{ boxShadow: '0 4px 8px rgba(227, 76, 38, 0.6)' }}>
@@ -19,7 +20,7 @@ function Skills() {
               <h3 className="text-2xl font-semibold">HTML</h3>
               <p className="mt-2">Building structured and semantic web pages using HTML5.</p>
             </div>
-            
+
             <div className="bg-gray-900 bg-opacity-40 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-110" style={{ boxShadow: '0 4px 8px rgba(38, 77, 228, 0.6)' }}>
               <div className="text-3xl mb-4">
                 <img src="/images/css3.svg" alt="CSS" className="mx-auto w-12 h-12" />

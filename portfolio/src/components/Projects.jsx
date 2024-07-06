@@ -14,8 +14,7 @@ function Projects() {
             Projects
           </h1>
           <span className="text-sm md:text-lg font-bold text-blue-200">
-            Here are some Projects with their GitHub link that I have created from minor projects to major projects.
-          </span>
+            Here are some projects, ranging from minor to major, that I have created along with their GitHub links</span>
           <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-white">
             {[
               {
