@@ -36,40 +36,22 @@ To get a local copy up and running, follow these simple steps:
     ```sh
     cd portfolio
     ```
-3. **Install backend dependencies:**
-    ```sh
-    cd backend
-    npm install express
-    npm install mongoose
-    ```
-4. **Install frontend dependencies:**
+3. **Install frontend dependencies:**
     ```sh
     cd ../portfolio
     npm install -D tailwindcss postcss autoprefixer
     npx tailwindcss init
     npm install react-router-dom
     ```
-5. **Create a `.env` file in the `backend` directory and add the following environment variables:**
-    ```env
-    MONGO_URI=your-mongodb-connection-string
-    EMAIL_SERVICE=your-email-service
-    EMAIL_USER=your-email-username
-    EMAIL_PASS=your-email-password
-    ```
 
 ## Usage
 
-1. **Start the backend server:**
-    ```sh
-    cd backend
-    npm start
-    ```
-2. **Start the frontend development server:**
+1. **Start the frontend development server:**
     ```sh
     cd portfolio
     npm start
     ```
-3. **Open your browser and visit:**
+2. **Open your browser and visit:**
     ```url
     http://localhost:3000
     ```
@@ -79,14 +61,8 @@ To get a local copy up and running, follow these simple steps:
 - **Frontend:**
     - React
     - Tailwind CSS
-- **Backend:**
-    - Node.js
-    - Express.js
-    - MongoDB
 - **Other Tools:**
-    - Nodemailer (for contact form)
-    - Mongoose (for MongoDB interactions)
-
+    - Framermotion (for animation)
 ## Contact
 
 Your Name - (mailto:prakharofficial17@gmail.com)
