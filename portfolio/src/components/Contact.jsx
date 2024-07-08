@@ -18,20 +18,19 @@ function Contact() {
             to="https://www.linkedin.com/in/prakhar-gupta-2a1349161?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white p-4 rounded-lg shadow-lg"
-            style={{ color: '#0077B5' }}
-          >
+            className="bg-white p-4 rounded-lg shadow-lg transition-transform transform hover:scale-110"
+            style={{ color: '#0077B5', boxShadow: `0 4px 8px rgba(66, 133, 244, 0.6)` }}>
             <FaLinkedin size={30} />
           </NavLink>
-          <NavLink to="https://github.com/iamprakhar27"  target="_blank" rel="noopener noreferrer"  className="bg-white p-4 rounded-lg shadow-lg" style={{ color: '#181717' }} >
+          <NavLink to="https://github.com/iamprakhar27"  target="_blank" rel="noopener noreferrer"  className="bg-white p-4 rounded-lg shadow-lg transition-transform transform hover:scale-110" style={{ color: '#181717' , boxShadow: `0 4px 8px rgba(124, 124, 124, 0.6)`}} >
             <FaGithub size={30} />
           </NavLink>
 
-          <NavLink to="https://x.com/the21immortals?t=2MtfrBOxYMYaIZFOYy_iJg&s=09" target="_blank" rel="noopener noreferrer" className="bg-white p-4 rounded-lg shadow-lg" style={{ color: '#1DA1F2' }}>
+          <NavLink to="https://x.com/the21immortals?t=2MtfrBOxYMYaIZFOYy_iJg&s=09" target="_blank" rel="noopener noreferrer" className="bg-white p-4 rounded-lg shadow-lg transition-transform transform hover:scale-110" style={{ color: '#1DA1F2',boxShadow: `0 4px 8px rgba(66, 133, 244, 0.6)` }}>
             <FaTwitter size={30} />
           </NavLink>
 
-          <NavLink to="mailto:prakharofficial17@gmail.com" target="_blank" rel="noopener noreferrer" className="bg-white p-4 rounded-lg shadow-lg" style={{ color: '#D44638' }}>
+          <NavLink to="mailto:prakharofficial17@gmail.com" target="_blank" rel="noopener noreferrer" className="bg-white p-4 rounded-lg shadow-lg transition-transform transform hover:scale-110" style={{ color: '#D44638',boxShadow: `0 4px 8px rgba(227, 76, 38, 0.6)` }}>
             <FaEnvelope size={30} />
           </NavLink>
           

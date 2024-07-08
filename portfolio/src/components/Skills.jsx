@@ -93,11 +93,7 @@ function Skills() {
           </span>
           <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-white">
             {skills.map((skill, index) => (
-              <div
-                key={index}
-                className="bg-gray-900 bg-opacity-40 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-110"
-                style={{ boxShadow: `0 4px 8px ${skill.boxShadowColor}` }}
-              >
+              <div key={index} className="bg-gray-900 bg-opacity-40 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-110" style={{ boxShadow: `0 4px 8px ${skill.boxShadowColor}` }}>
                 <div className="text-3xl mb-4">
                   <img src={skill.imageUrl} alt={skill.name} className="mx-auto w-15 h-12" />
                 </div>
