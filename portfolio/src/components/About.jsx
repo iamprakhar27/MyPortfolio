@@ -15,7 +15,7 @@ function About() {
                                 Hello, I'm Prakhar Gupta Welcome! Feel free to explore.
                             </span>
                         </div>
-                        <div className="col-span-12 md:col-span-6 mt-10 md:mt-20">
+                        <div className="col-span-12 md:col-span-6 mt-5 md:mt-15">
                             <span className="text-sm md:text-lg font-bold text-blue-200">
                                 As a dedicated and innovative MERN stack web developer, I specialize in creating dynamic, responsive, and user-friendly web applications. With a strong proficiency in MongoDB, Express.js, React, and Node.js, I bring ideas to life through seamless full-stack development.
                                 During my 5-month industrial training in MCA, I developed a project that significantly enhanced my web application skills. You can explore this project on my <NavLink to="https://github.com/iamprakhar27/Life-Line-portal/">Github</NavLink>
