@@ -2,25 +2,25 @@ const skills = [
   {
     name: "HTML",
     description: "Building structured and semantic web pages using HTML5.",
-    imageUrl: "/images/html5.png",
+    imageUrl: "/images/HTML5.png",
     boxShadowColor: "rgba(227, 76, 38, 0.6)"
   },
   {
     name: "CSS",
     description: "Styling websites with CSS3 for a visually appealing design.",
-    imageUrl: "/images/css3.svg",
+    imageUrl: "/images/CSS3.svg",
     boxShadowColor: "rgba(38, 77, 228, 0.6)"
   },
   {
     name: "JavaScript",
     description: "Creating dynamic and interactive web experiences with JavaScript.",
-    imageUrl: "/images/javascript.png",
+    imageUrl: "/images/javaScript.png",
     boxShadowColor: "rgba(247, 223, 30, 0.6)"
   },
   {
     name: "Bootstrap",
     description: "Utilizing Bootstrap for responsive and mobile-first web development.",
-    imageUrl: "/images/bootstrap.svg",
+    imageUrl: "/images/Bootstrap.svg",
     boxShadowColor: "rgba(138, 42, 240, 0.6)"
   },
   {
@@ -38,7 +38,7 @@ const skills = [
   {
     name: "React.JS",
     description: "Developing component-based user interfaces with React.js.",
-    imageUrl: "/images/react.svg",
+    imageUrl: "/images/React.svg",
     boxShadowColor: "rgba(97, 218, 251, 0.6)"
   },
   {
