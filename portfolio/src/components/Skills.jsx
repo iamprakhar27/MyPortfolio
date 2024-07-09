@@ -14,7 +14,7 @@ const skills = [
   {
     name: "JavaScript",
     description: "Creating dynamic and interactive web experiences with JavaScript.",
-    imageUrl: "/images/javaScript.png",
+    imageUrl: "/images/JavaScript.png",
     boxShadowColor: "rgba(247, 223, 30, 0.6)"
   },
   {
