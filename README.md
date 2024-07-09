@@ -22,7 +22,7 @@ Welcome to my Portfolio project! This repository showcases a professional portfo
 
 ## Demo
 
-Check out the live demo of the portfolio [here](https://your-portfolio-demo-link.com / will be added sooner).
+Check out the live demo of the portfolio (https://prakhar-portfolio-coral.vercel.app/)
 
 ## Installation
 
